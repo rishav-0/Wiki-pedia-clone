@@ -1,0 +1,14 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+
+{% block body %}
+    <h1>{{message}}{{title}}</h1>
+     <a href="{% url 'index' %}">return to the homepage</a> 
+{% endblock %}
+
+    
+
